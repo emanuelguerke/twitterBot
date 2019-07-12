@@ -10,7 +10,7 @@ var params = {
     result_type: 'recent'
   }
 autoLike();
-setInterval(autoLike, 10000*60);
+setInterval(autoLike, 1000*60);
 
 
   function autoLike(){
